@@ -1,0 +1,2 @@
+#Ignore YAML file that contains user creds
+*.yml
