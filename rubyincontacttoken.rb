@@ -5,7 +5,7 @@ require 'json'
 require 'yaml'
 
 def getToken()
-user = YAML.load_file('/mnt/c/Users/stephen.heath/Ruby/user.yml')
+user = YAML.load_file('user.yml')
 auth_key = "Q2xheXRvbkFQUEBDbGF5dG9uVmVuZG9yOjUy"
 
 uri = URI("https://api.incontact.com/InContactAuthorizationServer/Token")
