@@ -44,8 +44,6 @@ uri = URI("https://api.incontact.com/InContactAuthorizationServer/Token")
   token = JSON.parse(response.body)
 
  end
- 
- getToken()
- 
+
 
  
