@@ -7,10 +7,9 @@ require '/home/ubuntu/Ruby/incontactapi/getfiles.rb'
 require 'base64'
 download_array = []
 
-# This creates the two variables used to pass in yesterday and todays date. This kinda feels like a hack, particularly yesterday.
+# This creates the two variables used to pass in yesterday and todays date. 
 today = Time.now.strftime('%Y-%m-%d')
-yesterday = Time.now - 86400
-yesterday = yesterday.strftime('%Y-%m-%d')
+yesterday = (Time.now - 86400).strftime('%Y-%m-%d')
 
 
 #Get the list of contacts for yesterday and today
